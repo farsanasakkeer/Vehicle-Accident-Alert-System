@@ -30,12 +30,15 @@ The system continuously reads data from the accelerometer (ADXL-335). If a signi
   - **Blinking every 2 seconds**: GPRS data connection is active.
   - **Blinking every 3 seconds**: Connected to the network, ready to send/receive SMS and calls.
 
+Note :  **SIM Compatibility**: Use a **Du SIM** for better results in the UAE.
+
 ### Neo-6M GPS Module
 
 - **GPS**: Uses 31 satellites orbiting Earth for location and date/time transmission.
 - **LED Indicator**:
   - **No blinking**: Searching for satellites.
   - **Blinking every 1 second**: Position is fixed, connected to the satellite.
+GPS systems, such as the Neo-6M, generally require a clear line of sight to the sky in order to establish a reliable connection with satellites. In indoor or enclosed areas, the GPS module might struggle to get a fix on its location. This is a known limitation of GPS technology. 
 
 ### ADXL-335 Sensor
 
@@ -90,7 +93,7 @@ The circuit uses an LM2596 step-down converter to power the SIM800L.
 #include <math.h>
 #include <SoftwareSerial.h>
 
-const String EMERGENCY_PHONE = "+971543822440";
+const String EMERGENCY_PHONE = "+971XXXXXXX";
 #define rxPin 2
 #define txPin 3
 
@@ -272,3 +275,10 @@ void sendSms(String text) {
   delay(1000);
   Serial.println("SMS Sent Successfully.");
 }
+
+
+## How to Use
+- Upload the code to the Arduino Nano.
+- Connect all the components as shown in the circuit diagram.
+- Power on the system and wait for the device to initialize.
+- In case of an accident, the system will detect the impact, get the GPS location, and send an SMS alert with the severity of the crash and the location.
