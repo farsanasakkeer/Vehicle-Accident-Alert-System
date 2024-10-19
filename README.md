@@ -23,7 +23,7 @@ The system continuously reads data from the accelerometer (ADXL-335). If a signi
 
 ### Sim800L GSM Module
 
-- **Operating Voltage**: 5-5.1V (powered with a lithium-ion battery and LM2596 step-down converter).
+- **Operating Voltage**: **5-5.1V** (powered with a lithium-ion battery and LM2596 step-down converter).
 - **Antenna**: IPX antenna interface for PCB or suction cup antenna.
 - **LED Indicators**:
   - **Blinking every 1 second**: Not connected to the network.
