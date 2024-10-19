@@ -89,10 +89,8 @@ The circuit uses an LM2596 step-down converter to power the SIM800L.
 
 ## How to Use
 - Upload the code to the Arduino Nano.
-  Compile and Upload:
 
-After saving the code, you can compile and upload it to your Arduino board by clicking the Upload button (the right-facing arrow icon).
-Make sure your Arduino is connected to your PC, and the correct board and port are selected under Tools > Board and Tools > Port.
+   Compile and Upload:After saving the code, you can compile and upload it to your Arduino board by clicking the Upload button (the right-facing arrow icon).Make sure your Arduino is connected to your PC, and the correct board and port are selected under Tools > Board and Tools > Port.
 
 - Connect all the components as shown in the circuit diagram.
 - Power on the system and wait for the device to initialize.
