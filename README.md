@@ -96,3 +96,11 @@ The circuit uses an LM2596 step-down converter to power the SIM800L.
 - Power on the system and wait for the device to initialize.
 - In case of an accident, the system will detect the impact, get the GPS location, and send an SMS alert with the severity of the crash and the location.
 
+
+
+
+## Documentation
+
+For detailed project documentation, refer to the [project documentation](https://docs.google.com/document/d/1sdhWlR8i6U2iJhEYEL-122-BiOUAzLDF6kubY2fwpHw/edit?tab=t.0) on Google Docs.
+
+
