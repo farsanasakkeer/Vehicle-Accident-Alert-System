@@ -96,7 +96,8 @@ The circuit uses an LM2596 step-down converter to power the SIM800L.
 - Power on the system and wait for the device to initialize.
 - In case of an accident, the system will detect the impact, get the GPS location, and send an SMS alert with the severity of the crash and the location.
 
-### Impact Magnitude Levels: Depending on the calculated magnitude, the intensity level can vary. For example:
+### Impact Magnitude Levels: Depending on the calculated magnitude, the intensity level can vary. 
+For example:
 
 - Magnitude < 20: "Minor"
 - 20 <= Magnitude < 50: "Moderate"
